@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoplanetas"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/txtp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#FFC107"
+        android:text="Mercurio"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/imgp1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/txtp1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/mercurio" />
+
+    <TextView
+        android:id="@+id/desp1"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgp1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Mercurio es el planeta más pequeño de nuestro sistema solar. Simplemente, es un poco más grande que la Luna de la Tierra. Es el planeta más cercano al Sol, pero no es realmente el más cálido. Venus es el más cálido. Su día dura 59 días terrestres y su año dura 59 días terrestres."
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text="Regresar"
+        android:layout_below="@id/desp1"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoplanetas"
+    tools:context=".MainActivity7">
+
+    <TextView
+        android:id="@+id/txtp6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#FFC107"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:text="Saturno"
+        />
+
+    <ImageView
+        android:id="@+id/imgp6"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/txtp6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/saturno" />
+
+    <TextView
+        android:id="@+id/desp6"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="Saturno no es el único planeta que tiene anillos, pero definitivamente tiene los más bellos. Los anillos que vemos están compuestos por grupos de pequeños aros que rodean a Saturno. Están hechos de pedazos de hielo y roca. Como Júpiter, Saturno es una pelota de hidrógeno y helio, en gran parte. Está compuesto por hidrógeno y helio, sobre todo."
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#FFF"
+        android:textSize="22dp"
+        android:layout_below="@id/imgp6"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/btp6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/desp6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Regresar" />
+
+</RelativeLayout>

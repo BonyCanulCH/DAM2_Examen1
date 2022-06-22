@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoplanetas"
+    tools:context=".MainActivity6">
+    
+    <TextView
+        android:id="@+id/txtp5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#FFC107"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:text="Jupiter"
+        />
+
+    <ImageView
+        android:id="@+id/imgp5"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_below="@id/txtp5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/jupiter" />
+
+    <TextView
+        android:id="@+id/desp5"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="Júpiter es el planeta más grande de nuestro sistema solar. Es parecido a una estrella, pero nunca llegó a ser lo suficientemente masiva como para empezar a arder. Está cubierto de rayas de nubes arremolinadas. Tiene fuertes tormentas como la Gran Mancha Roja, que hace cientos de años que dura. Júpiter es un gigante hecho de gas, y no tiene una superficie sólida, pero puede tener un núcleo interno sólido de aproximadamente el tamaño de la Tierra. Júpiter también tiene anillos, pero son demasiado tenues para verlos muy bien."
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#FFF"
+        android:textSize="19dp"
+        android:layout_below="@id/imgp5"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/btp5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Regresar"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/desp5"
+        />
+
+</RelativeLayout>

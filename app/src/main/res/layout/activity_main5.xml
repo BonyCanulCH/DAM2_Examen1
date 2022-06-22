@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoplanetas"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:id="@+id/txtp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#FFC107"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:text="Marte"
+        />
+
+    <ImageView
+        android:id="@+id/imgp4"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_below="@id/txtp4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/marte" />
+
+    <TextView
+        android:id="@+id/desp4"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:layout_below="@id/imgp4"
+        android:layout_centerHorizontal="true"
+        android:text="Marte es un planeta desértico y frío. Es la mitad del tamaño de la Tierra, y también recibe el nombre de 'planeta rojo'. Es rojo por el hierro oxidado que tiene en el suelo. Marte tiene estaciones, casquetes polares, volcanes, cañones y clima. Tiene una atmósfera poco densa hecha de dióxido de carbono, nitrógeno y argón." />
+
+    <Button
+        android:id="@+id/btp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Regresar"
+        android:layout_marginTop="110dp"
+        android:layout_below="@id/desp4"
+        />
+
+</RelativeLayout>

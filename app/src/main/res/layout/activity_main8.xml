@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoplanetas"
+    tools:context=".MainActivity8">
+
+    <TextView
+        android:id="@+id/txtp7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#FFC107"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:text="Urano" />
+
+    <ImageView
+        android:id="@+id/imgp7"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/txtp7"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/urano" />
+
+    <TextView
+        android:id="@+id/desp7"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="Urano está compuesto de agua, metano y amoniaco sobre un pequeño centro rocoso. Su atmósfera está hecha de hidrógeno y helio, como Júpiter y Saturno, pero además contiene metano. El metano es lo que le da a Urano el color azul. Urano rota en dirección opuesta a la de la mayoría de los otros planetas. Y, a diferencia de cualquier otro planeta, Urano rota de lado."
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#FFF"
+        android:textSize="22dp"
+        android:layout_below="@id/imgp7"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/btp7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Regresar"
+        android:layout_below="@id/desp7"
+        />
+
+</RelativeLayout>

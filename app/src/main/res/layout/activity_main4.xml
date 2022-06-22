@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoplanetas"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/txtp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#FFC107"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:text="Tierra"
+        />
+
+    <ImageView
+        android:id="@+id/imgp3"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_below="@id/txtp3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/tierra" />
+
+    <TextView
+        android:id="@+id/desp3"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="Nuestro hogar, el planeta Tierra, es un planeta terrestre y rocoso. Tiene una superficie sólida y activa, con montañas, valles, cañones, llanuras y mucho más. La Tierra es especial porque es un planeta océano, ya que el agua cubre el 70% de su superficie. Un día en la tierra dura algo menos de 24 horas y un año dura 365 días."
+        android:layout_below="@id/imgp3"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#FFF"
+        android:textSize="22dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/btp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Regresar"
+        android:layout_marginTop="90dp"
+        android:layout_below="@id/desp3"
+        />
+
+
+</RelativeLayout>
